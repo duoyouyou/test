@@ -19,7 +19,7 @@
 		 xf_user_uuid						<!-- 用户主键 -->
 		 )
 		 VALUES(
-		 	#{userAccountUuid},
+		 	#{accountUuid},
 		 	#{totalPrice},
 		 	#{accountType},
 		 	#{createId},

@@ -33,7 +33,7 @@
 				</label>
 				<br>
 				<label class="control-label">费用</label>
-				<input type="number" name="baseAccount.totalPrice"/>
+				<input type="number" min="0.0" max="200.0" step="0.1" name="baseAccount.totalPrice"/>
 				<s:submit value="付款" cssClass="btn btn-primary"/>
 			</div>
 		</div>
