@@ -18,6 +18,7 @@
 
 
 
+
 <s:form action="insertCommon" namespace="/account" method="post" cssClass="form-horizontal">
 		<div class="control-group">
 			<div class="controls">
