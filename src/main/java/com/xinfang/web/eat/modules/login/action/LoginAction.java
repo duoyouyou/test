@@ -15,6 +15,8 @@ import com.xinfang.web.eat.modules.base.action.BaseAction;
  */
 public class LoginAction extends BaseAction {
 
+	
+	// Ìí¼Óµã´úÂë
 	/*-------------------------------------------
 	 |             C O N S T A N T S             |
 	 ============================================*/
