@@ -15,7 +15,7 @@ import com.xinfang.web.eat.modules.base.action.BaseAction;
 
 
 /**
- * 账本
+ * 璐︽湰
  * 
  * @author st
  *
@@ -33,12 +33,12 @@ public class AccountAction extends BaseAction {
 	/*-------------------------------------------
 	  |    I N S T A N C E   V A R I A B L E S    |
 	  ============================================*/
-	/**所有用户*/
+	/**鎵�鏈夌敤鎴�*/
 	public List<BaseUser> xfUserList = Collections.emptyList();
 	
-	/**充值bean*/
+	/**鍏呭�糱ean*/
 	private BaseUserAccount baseUserAccount;
-	/**异步返回标志*/
+	/**寮傛杩斿洖鏍囧織*/
 	private boolean ajaxFlg;
 	
 	@Autowired
@@ -48,7 +48,7 @@ public class AccountAction extends BaseAction {
 	  ============================================*/
 
 	/**
-	 * 初试化
+	 * 鍒濊瘯鍖�
 	 * @return
 	 */
 	public String init(){
@@ -59,12 +59,12 @@ public class AccountAction extends BaseAction {
 	
 	
 	/**
-	 * 普通用户记账
+	 * 鏅�氱敤鎴疯璐�
 	 */
 	
 	
 	/**
-	 * 管理员充值
+	 * 绠＄悊鍛樺厖鍊�
 	 * @return
 	 */
 	public String payment(){
@@ -91,6 +91,6 @@ public class AccountAction extends BaseAction {
 		this.ajaxFlg = ajaxFlg;
 	}
 	
-
+// 对哈对哈合适的
 
 }
